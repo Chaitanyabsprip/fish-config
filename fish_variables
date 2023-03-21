@@ -1,6 +1,18 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR __fish_initialized:3100
+SETUVAR ANDROID_SDK_ROOT:/Users/chaitanyasharma/Library/Android/Sdk
+SETUVAR CPPFLAGS:\x2dI/opt/homebrew/opt/llvm/include
+SETUVAR EDITOR:nvim
+SETUVAR FLUTTER_SDK_ROOT:/Users/chaitanyasharma/fvm/default
+SETUVAR LANG:en_US\x2eUTF\x2d8
+SETUVAR LC_ALL:en_US\x2eUTF\x2d8
+SETUVAR LDFLAGS:\x2dL/opt/homebrew/opt/llvm/lib
+SETUVAR ZO_CMD:zo
+SETUVAR Z_CMD:z
+SETUVAR Z_DATA:/Users/chaitanyasharma/\x2elocal/share/z/data
+SETUVAR Z_DATA_DIR:/Users/chaitanyasharma/\x2elocal/share/z
+SETUVAR Z_EXCLUDE:\x5e/Users/chaitanyasharma\x24
+SETUVAR __fish_initialized:3400
 SETUVAR _fish_abbr_ftest:flutter\x20test
 SETUVAR _fish_abbr_ga:git\x20add
 SETUVAR _fish_abbr_gaa:git\x20add\x20\x2e
@@ -23,6 +35,9 @@ SETUVAR _fish_abbr_nvi:nvim
 SETUVAR _fish_abbr_nvm:nvim
 SETUVAR _fish_abbr_nvmi:nvim
 SETUVAR _fish_abbr_vnim:nvim
+SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
+SETUVAR _fisher_plugins:jethrokuan/z
+SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:6e6a86
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:c4a7e7
@@ -52,4 +67,5 @@ SETUVAR fish_pager_color_completion:normal
 SETUVAR fish_pager_color_description:ebbcba\x1eyellow
 SETUVAR fish_pager_color_prefix:white\x1e\x2d\x2dbold\x1e\x2d\x2dunderline
 SETUVAR fish_pager_color_progress:brwhite\x1e\x2d\x2dbackground\x3dcyan
-SETUVAR fish_user_paths:/home/chaitanya/\x2elocal/share/nvim/plugged/fzf/bin
+SETUVAR fish_pager_color_selected_background:\x2dr
+SETUVAR fish_user_paths:/Users/chaitanyasharma/Library/Android/sdk/platform\x2dtools\x1e/Users/chaitanyasharma/\x2epub\x2dcache/bin\x1e/Users/chaitanyasharma/\x2ecargo/bin\x1e/Users/chaitanyasharma/fvm/default/bin/cache/dart\x2dsdk/bin\x1e/Users/chaitanyasharma/fvm/default/bin\x1e/home/chaitanya/\x2elocal/share/nvim/plugged/fzf/bin
