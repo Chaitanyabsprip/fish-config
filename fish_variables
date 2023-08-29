@@ -3,6 +3,7 @@
 SETUVAR ANDROID_SDK_ROOT:/Users/chaitanyasharma/Library/Android/Sdk
 SETUVAR CPPFLAGS:\x2dI/opt/homebrew/opt/llvm/include
 SETUVAR EDITOR:nvim
+SETUVAR FLUTTER_ROOT:/Users/chaitanyasharma/fvm/default
 SETUVAR FLUTTER_SDK_ROOT:/Users/chaitanyasharma/fvm/default
 SETUVAR LANG:en_US\x2eUTF\x2d8
 SETUVAR LC_ALL:en_US\x2eUTF\x2d8

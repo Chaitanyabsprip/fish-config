@@ -71,3 +71,4 @@ end
 
 /opt/homebrew/bin/brew shellenv | source
 starship init fish | source
+status --is-interactive; and rbenv init - fish | source
