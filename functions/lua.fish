@@ -1,3 +1,5 @@
+set luadir $HOME/projects/languages/lua
+
 function lua -a dir
-  cd $HOME/Projects/Languages/Lua/(echo $dir || echo "/")
+    cd $luadir/(echo $dir || echo "/")
 end

@@ -1,5 +1,5 @@
-set pydir $HOME/Projects/Languages/Python
+set pydir $HOME/Projects/languages/python
 
 function py -a dir
-  cd $pydir/(echo $dir || echo "/")
+    cd $pydir/(echo $dir || echo "/")
 end

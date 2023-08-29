@@ -1,1 +1,1 @@
-completion -c notes -a "(/bin/ls $notesdir)" -f
+complete -c notes -a "(/bin/ls $notesdir)" -f

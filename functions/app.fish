@@ -1,5 +1,5 @@
-set appdir $HOME/Projects/ApplicationDevelopment 
+set appdir $HOME/Projects/apps
 
 function app -a dir
-  cd $appdir/(echo "$dir" || echo "/")
+    cd $appdir/(echo "$dir" || echo "/")
 end
