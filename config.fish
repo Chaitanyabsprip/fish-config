@@ -32,11 +32,11 @@ alias .5='cd ../../../../..'
 
 alias q='exit'
 
-# Changing "ls" to "exa"
-alias ls='exa -al --color=always --group-directories-first' # my preferred listing
-alias la='exa -a --color=always --group-directories-first' # all files and dirs
-alias ll='lsd -d'
-alias lt='exa -aT --color=always --group-directories-first' # tree listing
+# Changing "ls" to "eza"
+alias ls='eza -F --group-directories-first --icons --git'
+alias ll='ls -lhF --git'
+alias la='ll -a'
+alias lt='eza --tree -ahD -L=2 --icons --git'
 
 # Changing "cat" to "bat"
 alias cat='bat'
